@@ -1,0 +1,15 @@
+procedure TEST is
+   I : INTEGER;
+   K: constant := 55;
+   procedure p(X : INTEGER) is
+      I : INTEGER;
+      begin
+         I := 10;
+         print(K);
+         print(I);
+      end P;
+   begin
+   I := -5 + 4 * 3 ** 2;
+   P(I);
+   print(I);
+   end;
